@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.dll
+*.so
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# DS Store
+.DS_Store
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook checkpoint files
+.ipynb_checkpoints/
+
+# PyInstaller distribution
+/dist
+/build
+
+# OS generated files
+Thumbs.db
+*.tmp
+*.swp
+._*
+*.log
+
+#Specific ignore
+**/data/*.csv   #If you store any data files, do ignore it

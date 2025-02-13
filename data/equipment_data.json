@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Reactor 1",
+        "type": "Reactor",
+        "volume": 10.0,
+        "max_temperature": 200.0
+    },
+    {
+        "name": "Distillation Column 1",
+        "type": "DistillationColumn",
+        "height": 2.0,
+        "num_trays": 10
+    }
+]

@@ -1,0 +1,1 @@
+# Code for displaying/managing equipment blocks
