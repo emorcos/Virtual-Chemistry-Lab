@@ -1,4 +1,3 @@
-#Add to top
 import pandas as pd
 
 from models.equipment_model import EquipmentModel
