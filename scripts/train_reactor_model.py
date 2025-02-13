@@ -33,8 +33,6 @@ def generate_cstr_data(num_samples=1000, temp_range=(20, 80), conc_range=(0.1, 1
 cstr_data = generate_cstr_data(num_samples=1000)
 
 # Feature Engineering (Consider Carefully):
-# In this case, using the raw features *might not* be the best approach because the underlying equation involves `space_time`.
-# Let's create a feature for space time explicitly:
 cstr_data['space_time'] = cstr_data['reactor_volume'] / cstr_data['flow_rate']
 
 # Prepare the data
